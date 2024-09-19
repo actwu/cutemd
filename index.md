@@ -9,7 +9,7 @@ This is a paragraph with a **bold** word, an _italic_ word, and a [link](https:/
 
 > "This is a blockquote. It's styled with a pastel border."
 
-Here’s some inline code: `console.log('Hello World!')`
+Here’s some inline code: ```console.log('Hello World!')```
 
 ### List Example
 - Item 1
