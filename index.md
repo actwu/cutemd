@@ -5,7 +5,7 @@
 
 ## Subheading Example
 
-This is a paragraph with a **bold** word, an _italic_ word, and a [link](https://example.com).
+This is a paragraph with a **bold** word, an _italic_ word. [link](https://example.com)
 
 > "This is a blockquote. It's styled with a pastel border."
 
