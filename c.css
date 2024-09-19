@@ -13,20 +13,23 @@ border-radius: var(--bdr); font-weight:500;  font-size: 19px;  letter-spacing:-1
 body { text-align: center; }
 code, pre, blockquote {
 border-radius: var(--bdr); padding: 8em 1.2em;outline:none;  display:block; margin:0.35in; gap:0px;
-color: var(--matte);
-background: var(--black2);
-  
+color: var(--black);
+background: var(--matte);
+outline:solid 2px var(--black) ; 
 }
 code *,pre *,blockquote *
 {
-color: var(--matte);
+color: var(--black);
+  
 }
 
 a, button {  display:flex; width:max-content; border-radius: 10px; 
            color: var(--black);
            padding: 0px; height:max-content; padding: 0.5em 1.4em;   cursor: pointer;
 transition: background-color, box-shadow, transform 0.8s;
-transform: translateY(0px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px var(--black);}
+transform: translateY(0px);
+           outline:solid 2px var(--black) ; 
+           box-shadow: 0px 5px 1px var(--black);}
 a:hover, button:hover { transition: background-color, box-shadow, margin, transform 0.8s; box-shadow: 0px 0px 1px var(--black); 
 transform: translateY(5px);} 
 
