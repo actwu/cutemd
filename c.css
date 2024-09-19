@@ -40,26 +40,43 @@ color: var(--black);
 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 
-h1:first-child  * {
+h1:first-child * {
 color: var(--black);
 }
-h1:first-child 
-{top: 0px;right: 0px;left: 0px;
-bottom: 0px; width: 0%;
-height: 0%; z-index: 0;
-position: fixed; 
-size: 0%;
+
+h1:first-child {
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+width: 0%;
+height: 0%;
+z-index: 0;
+position: fixed;
 animation: logoscreen 2s;
-opacity: 0%;display: grid;
+opacity: 0%;
+display: grid;
 place-content: center;
 background: var(--matte);
-font-size:0.35in;
-color:var(--black);
-justify-content: center;flex-wrap: wrap;overflow-y: scroll;
-z-index: 4;}
-@keyframes logoscreen {0%,50%{
-z-index: 4;width: auto;height: auto;
-  opacity: 100%;size: auto;}
-100% {
-z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
+font-size: 0.35in;
+color: var(--black);
+justify-content: center;
+flex-wrap: wrap;
+overflow-y: scroll;
+z-index: 4;
 }
+
+@keyframes logoscreen {
+0%, 50% {
+z-index: 4;
+width: auto;
+height: auto;
+opacity: 100%;
+}
+100% {
+z-index: 4;
+width: auto;
+height: auto;
+opacity: 0%;
+}
+  }
