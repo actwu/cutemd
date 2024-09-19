@@ -11,24 +11,6 @@
 border-radius: var(--bdr); font-weight:500;  font-size: 19px;  letter-spacing:-1.24px;  margin: 5px;gap:5px;/*&:*/ font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; } 
 :root, html, body { background-color: transparent; border-radius:0px; margin: 0px;}
 body { text-align: center; }
-
-h1:first-child 
-{top: 0px;right: 0px;left:
-0px;bottom: 0px;width: 0%;
-height: 0%;z-index: 0;position: fixed;font-size: .3in;size: 0%;
-animation: logoscreen 2s;
-opacity: 0%;display: grid;
-place-content: center;
-background: var(--matte);
-font-size:34px;
-color:var(--black);
-justify-content: center;flex-wrap: wrap;overflow-y: scroll;
-z-index: 4;}
-@keyframes logoscreen {0%,50%{z-index: 4;width: auto;height: auto;opacity: 100%;size: auto;}100% {z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
-}
-h1:first-child  * {
-color: var(--black);
-}
             
 code, pre, blockquote {
 border-radius: var(--bdr); padding: 8em 1.2em;outline:none;  display:block; margin:0.35in; gap:0px;
@@ -57,3 +39,27 @@ color: var(--black);
 }
 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
+
+h1:first-child  * {
+color: var(--black);
+}
+h1:first-child 
+{top: 0px;right: 0px;left: 0px;
+bottom: 0px; width: 0%;
+height: 0%; z-index: 0;
+position: fixed; 
+size: 0%;
+animation: logoscreen 2s;
+opacity: 0%;display: grid;
+place-content: center;
+background: var(--matte);
+font-size:0.35in;
+color:var(--black);
+justify-content: center;flex-wrap: wrap;overflow-y: scroll;
+z-index: 4;}
+@keyframes logoscreen {0%,50%{
+z-index: 4;width: auto;height: auto;
+  opacity: 100%;size: auto;}
+100% {
+z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
+}
