@@ -15,13 +15,13 @@ body { text-align: center; }
             
 code, pre, blockquote {
 border-radius: var(--bdr); padding: 8em 1.2em;outline:none;  display:block; margin:0.35in; gap:0px;
-color: var(--matte);
-background: var(--black);
-outline:solid 2px var(--matte) ; 
+color: var(--black);
+background: var(--matte);
+outline:solid 2px var(--black2) ; 
 }
 code *, pre *, blockquote *
 {
-color: var(--matte);
+color: var(--black);
   
 }
 
