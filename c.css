@@ -41,6 +41,13 @@ color: var(--matte);
 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 
+a:has(h1) {
+  box-shadow: none;
+}
+
+h1:has(a) {
+  box-shadow: none;
+}
 h1:first-child * {
 color: var(--matte);
 }
