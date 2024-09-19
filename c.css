@@ -25,6 +25,7 @@ color:var(--black);
 justify-content: center;flex-wrap: wrap;overflow-y: scroll;
 z-index: 4;}
 @keyframes logoscreen {0%,50%{z-index: 4;width: auto;height: auto;opacity: 100%;size: auto;}100% {z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
+}
 h1:first-child  * {
 color: var(--black);
 }
