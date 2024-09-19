@@ -16,6 +16,10 @@ color: var(--matte);
 background: var(--black2);
   
 }
+code *,pre *,blockquote *
+{
+color: var(--matte);
+}
 
 h1 {
 top:0; left:0; right:0;
