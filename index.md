@@ -1,5 +1,6 @@
-<link rel="icon" href="https://actwu.github.io/cutemd/icon/1.svg" type="image/svg+xml">
+<head><link rel="icon" href="https://actwu.github.io/cutemd/icon/1.svg" type="image/svg+xml">
 <link rel="stylesheet" href="c.css">
+</head>
 
 
 # Welcome to My Cute Markdown
