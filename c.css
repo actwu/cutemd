@@ -26,6 +26,8 @@ color:var(--matte);
 margin:0.5in;
 border-radius: var(--bdr);
 width:max-content;
+word-wrap: break-word; 
+max-width: 85vw;
 }
 
 a, button {  display:flex; width:max-content; border-radius: 10px; color: white; padding: 0px; height:max-content; padding: 0.5em 1.4em;   cursor: pointer;
