@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="c.css">
-</head>
+
 
 # Welcome to My Cute Markdown
 
