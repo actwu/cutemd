@@ -20,9 +20,15 @@ animation: logoscreen 2s;
 opacity: 0%;display: grid;
 place-content: center;
 background: var(--matte);
+font-size:34px;
 color:var(--black);
-justify-content: center;flex-wrap: wrap;overflow-y: scroll;}screen#logo * {display: grid;place-content: center;justify-content: center;flex-wrap: wrap;z-index: 4;}@keyframes logoscreen {0%,50%{z-index: 4;width: auto;height: auto;opacity: 100%;size: auto;}100% {z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
-
+justify-content: center;flex-wrap: wrap;overflow-y: scroll;
+z-index: 4;}
+@keyframes logoscreen {0%,50%{z-index: 4;width: auto;height: auto;opacity: 100%;size: auto;}100% {z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}
+h1 * {
+color: var(--black);
+}
+            
 code, pre, blockquote {
 border-radius: var(--bdr); padding: 8em 1.2em;outline:none;  display:block; margin:0.35in; gap:0px;
 color: var(--black);
