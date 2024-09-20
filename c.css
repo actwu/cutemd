@@ -45,7 +45,7 @@ color: var(--black);
 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 
-ul:first-of-type {
+ul:first-child {
   display:flex;
   flex-flow: row;
   position: fixed;
@@ -54,12 +54,12 @@ place-items: center;
   left:0;
   right: 0;
   bottom: 0;
-  height: 1.025in;
-  background: var(--white);
+  max-height: 1.025in;
+  background-color: var(--white);
   border-radius: var(--bdr);
 }
 
-ul:first-of-type a:nth-child(-n+3) {
+ul:first-child a:nth-child(-n+3) {
   border: none;
   outline: none;
   box-shadow: none;
@@ -74,6 +74,8 @@ max-width:89vw;
 outline:solid 2px var(--black2) ; 
 }
 ul li { display: none;}
+
+ul:first-of-type li,
 ul:focus li, ul:hover li,
 ul li:first-child
 {display: block;}
