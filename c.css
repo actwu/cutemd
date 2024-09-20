@@ -10,7 +10,7 @@
   color: var(--matte);
 border-radius: var(--bdr); font-weight:500;  font-size: 19px;  letter-spacing:-1.24px;  margin: 5px;gap:5px;/*&:*/
    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; } 
-:root, html, body { background-color: var(--matte); border-radius:0px; margin: 0px;}
+:root, html, body { background-color: var(--black); border-radius:0px; margin: 0px;}
 body { text-align: center; justify-content: center; 
 place-items: center; }
 
