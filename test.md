@@ -1,5 +1,5 @@
 
-  <link rel="shortcut icon" href="icon/1.svg">
+  
   <link rel="icon" href="icon/1.svg">
   
 <link rel="stylesheet" href="c.css">
@@ -11,3 +11,10 @@
 
   [Meh](index.html)
 
+Why
+---
+Tgs
+
+apple
+---
+wk
