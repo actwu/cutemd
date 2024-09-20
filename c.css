@@ -46,9 +46,14 @@ color: var(--black);
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 
 ul:first-of-type {
+  display:flex;
+  flex-flow: row;
   position: fixed;
-  right: 0in;
-  top: 0in;
+  justify-content: center; 
+place-items: center;
+  left:0;
+  right: 0;
+  bottom: 0;
   height: 1.025in;
   background: var(--white);
   border-radius: var(--bdr);
