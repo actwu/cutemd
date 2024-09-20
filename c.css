@@ -54,6 +54,7 @@ place-items: center;
   left:0;
   right: 0;
   bottom: 0;
+  height: 1.025in;
   max-width:auto;
   max-height: 1.025in;
   background-color: var(--white);
@@ -82,7 +83,7 @@ outline:solid 2px var(--black2) ;
 ul li { margin-right:0.35in; 
   display: none;}
 
-ul:first-of-type li,
+ul:first-child li,
 ul:focus li, ul:hover li,
 ul:focus li:first-child,
 ul:hover li:first-child
