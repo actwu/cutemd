@@ -54,9 +54,11 @@ place-items: center;
   left:0;
   right: 0;
   bottom: 0;
+  max-width:auto;
   max-height: 1.025in;
   background-color: var(--white);
   border-radius: var(--bdr);
+  outline:solid 0px var(--black2);
 }
 
 ul:first-child a {
