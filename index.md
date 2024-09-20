@@ -3,11 +3,9 @@
 </head>
 
 ---
-* Home
-* About
-* Services
-* Contact
-* Blog
+* [Home](#home)
+* [About](#about)
+* [Services](#services)
 ---
 
 # Welcome to My Cute Markdown
