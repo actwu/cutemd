@@ -2,6 +2,13 @@
 <link rel="stylesheet" href="c.css">
 </head>
 
+---
+* Home
+* About
+* Services
+* Contact
+* Blog
+---
 
 # Welcome to My Cute Markdown
 
