@@ -65,6 +65,8 @@ ul:first-child a {
   box-shadow: none;
   height:0.5in;
   widtht:0.5in;
+  transform: translateY(-5px);
+  background-color: var(--white);
 }
 
 ul {
