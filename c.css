@@ -75,13 +75,14 @@ padding-left:0.0in;
 max-width:89vw;
 outline:solid 2px var(--black2) ;
 }
-ul li { display: none;}
+ul li { margin-right:0.35in; 
+  display: none;}
 
 ul:first-of-type li,
 ul:focus li, ul:hover li,
 ul:focus li:first-child,
 ul:hover li:first-child
-{display: block; margin:0;}
+{display: block;}
 
 ul li:first-child
 {display: block; margin-right:0.35in;}
