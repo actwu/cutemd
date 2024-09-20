@@ -48,7 +48,8 @@ img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width:
 ul {
 justify-content: center; 
 place-items: center;
-padding:0.1in;
+padding:0.05in;
+padding-left:0.35in;
 max-width:89vw;
 outline:solid 2px var(--black2) ; 
 }
