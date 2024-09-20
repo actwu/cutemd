@@ -47,7 +47,7 @@ img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width:
 
 ul:first-child {
   display:flex;
-  flex-flow: row;
+  flex-direction: row;
   position: fixed;
   justify-content: center; 
 place-items: center;
@@ -59,10 +59,12 @@ place-items: center;
   border-radius: var(--bdr);
 }
 
-ul:first-child a:nth-child(-n+3) {
+ul:first-child a {
   border: none;
   outline: none;
   box-shadow: none;
+  height:0.5in;
+  widtht:0.5in;
 }
 
 ul {
