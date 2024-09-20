@@ -49,7 +49,7 @@ ul {
 justify-content: center; 
 place-items: center;
 padding:0.05in;
-padding-left:0.35in;
+padding-left:0.035in;
 max-width:89vw;
 outline:solid 2px var(--black2) ; 
 }
