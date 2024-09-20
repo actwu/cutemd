@@ -44,7 +44,7 @@ color: var(--black);
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 
 ul {
-padding:0.35in;
+padding:0.1in;
 max-width:89vw;
 outline:solid 2px var(--black2) ; 
 }
