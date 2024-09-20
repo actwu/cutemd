@@ -71,12 +71,16 @@ place-items: center;
 padding:0.05in;
 padding-left:0.0in;
 max-width:89vw;
-outline:solid 2px var(--black2) ; 
+outline:solid 2px var(--black2) ;
 }
 ul li { display: none;}
 
 ul:first-of-type li,
 ul:focus li, ul:hover li,
+ul:focus li:first-child,
+ul:hover li:first-child
+{display: block; margin:0;}
+
 ul li:first-child
-{display: block;}
+{display: block; margin-right:0.35in;}
 
